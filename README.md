@@ -35,11 +35,21 @@ The second line contains one integer X denoting the number of operations you wan
 In the following X lines, the i-th line contains two integers posi,vali. This indicates that in the i-th operation, YP changes aposi to vali.
 In the next line, output an integer M denoting the length of the sequence b. In the next line, output M integers denoting the indices YP chooses.
 The output must satisfy the following restrictions:
-• 0≤X≤1000 • 1≤posi ≤N
-• 1≤vali ≤109 • 􏰂Xi=1 cposi ≤ K •1≤M≤N
+
+• 0≤X≤1000 
+• 1≤posi ≤N
+• 1≤vali ≤109 
+• 􏰂Xi=1 cposi ≤ K •1≤M≤N
 • 1≤bi ≤N
 • bi <bi+1∀i∈[1,M−1]
-• After doing the K operations, ab1 , ab2 , . . . , abM • sb1 +sb2 +...sbM =Sismaximized.
-becomes an ADA sequence.
+• After doing the K operations, ab1 , ab2 , . . . , abM becomes an ADA sequence.
+• sb1 +sb2 +...sbM = S is maximized.
+
 If there are multiple solutions, you can output any of them.
 It is guaranteed that there exists a solution satisfying the above restrictions.
+
+Hint:
+
+1. Solving the test groups in order (from 1 to 3) is helpful for solving Test Group 4. 
+2. Longest Common Subsequence (LCS), Longest Increaing Subsequence (LIS), and Longest Palindromic Subsequence (LPS) are classic dynamic programming problems. 
+3. 3. GL & HF (Good Luck and Have Fun).
