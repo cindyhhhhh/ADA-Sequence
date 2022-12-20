@@ -1,4 +1,4 @@
-# ADA-Sequnce
+# ADA-Sequence
 
 Problem Description:
 
